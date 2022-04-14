@@ -35,4 +35,5 @@ input.addEventListener('input', (event) => {
 
 destroyBtn.addEventListener('click', () => {
   divBoxes.innerHTML = "";
+  input.value = "";
 });
